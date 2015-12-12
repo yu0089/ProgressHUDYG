@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "ProgressHUDYG with end complect block"
   s.description  = <<-DESC
-  ProgressHUDYG with end complect block
+  ProgressHUDYG with end complect block ok good
                    DESC
 
   s.homepage     = "https://github.com/yu0089/ProgressHUDYG"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/yu0089/ProgressHUDYG.git", :tag => "0.0.1" }
 
-  s.source_files  = "**/*.{h,m}"
+  s.source_files  = "Constant.h","**/*.{h,m}"
   s.resources = "ProgressHUD.bundle/*.png"
   s.framework = "UIKit"
 end
